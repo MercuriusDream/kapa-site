@@ -106,15 +106,19 @@ export default function App() {
                   to={item.href}
                   className={({ isActive }) => isActive ? "active" : ""}
                 >
-                  {item.label}
+                  <span className="nav-label-full">{item.label}</span>
+                  <span className="nav-label-short">{item.shortLabel}</span>
                 </NavLink>
               ))}
             </nav>
             <div className="nav-external" aria-label="외부 링크">
               <ExternalLink href={links.cafe} className="external-item">카페</ExternalLink>
               <ExternalLink href={links.chat} className="external-item">카카오톡</ExternalLink>
-              <ExternalLink href={links.membershipForm} className="external-item primary-external">가입신청서</ExternalLink>
-              <div style={{ paddingLeft: '0.5rem', display: 'flex' }}>
+              <ExternalLink href={links.membershipForm} className="external-item primary-external">
+                <span className="external-label-full">가입신청서</span>
+                <span className="external-label-short">가입</span>
+              </ExternalLink>
+              <div className="theme-toggle-wrap">
                 <ThemeToggle />
               </div>
             </div>
