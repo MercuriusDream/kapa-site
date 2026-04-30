@@ -16,7 +16,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     color-scheme: dark;
     --paper: oklch(15% 0.012 240);
     --paper-2: oklch(19% 0.014 240);
@@ -27,6 +27,18 @@
     --brand-strong: oklch(85% 0.10 235);
     --brand-ink: oklch(15% 0.012 240);
   }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: oklch(15% 0.012 240);
+  --paper-2: oklch(19% 0.014 240);
+  --ink: oklch(95% 0.005 240);
+  --mute: oklch(70% 0.014 240);
+  --rule: oklch(28% 0.012 240);
+  --brand: oklch(74% 0.13 235);
+  --brand-strong: oklch(85% 0.10 235);
+  --brand-ink: oklch(15% 0.012 240);
 }
 
 * {
@@ -72,6 +84,27 @@ a {
 ::selection {
   background: var(--brand);
   color: var(--brand-ink);
+}
+
+/* Theme Toggle */
+.theme-toggle-btn {
+  background: transparent;
+  border: none;
+  color: var(--mute);
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 200ms var(--ease), background 200ms var(--ease);
+}
+
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus-visible {
+  color: var(--ink);
+  background: var(--paper-2);
+  outline: none;
 }
 
 /* Utilities */

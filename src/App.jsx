@@ -7,6 +7,7 @@ import { HistoryTimeline } from "./components/HistoryTimeline.jsx";
 import { Mission } from "./components/Mission.jsx";
 import { RulesSummary } from "./components/RulesSummary.jsx";
 import { SiteFooter } from "./components/SiteFooter.jsx";
+import { ThemeToggle } from "./components/ThemeToggle.jsx";
 import { ExternalLink } from "./components/ExternalLink.jsx";
 import { Logo } from "./components/Logo.jsx";
 import { links } from "./data/organization.js";
@@ -90,6 +91,31 @@ export default function App() {
               ))}
             </nav>
             <div className="nav-external" aria-label="외부 링크">
+              <ExternalLink href={links.cafe} className="external-item">카페</ExternalLink>
+              <ExternalLink href={links.chat} className="external-item">카카오톡</ExternalLink>
+              <ExternalLink href={links.membershipForm} className="external-item primary-external">가입신청서</ExternalLink>
+              <div style={{ paddingLeft: '0.5rem', display: 'flex' }}>
+                <ThemeToggle />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main id="top">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/appeal" element={<Appeal />} />
+          <Route path="/contact" element={<ContactLinks />} />
+        </Routes>
+      </main>
+
+      <SiteFooter />
+    </>
+  );
+}
+external" aria-label="외부 링크">
               <ExternalLink href={links.cafe} className="external-item">카페</ExternalLink>
               <ExternalLink href={links.chat} className="external-item">카카오톡</ExternalLink>
               <ExternalLink href={links.membershipForm} className="external-item primary-external">가입신청서</ExternalLink>

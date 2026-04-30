@@ -14,6 +14,6 @@ export const links = {
     "https://docs.google.com/forms/d/e/1FAIpQLSemBXxIc9DuVW2dgHg3oEabuseKBTrd0ARBJGuQJ-g8YVlStA/viewform?usp=header",
   bylawsPdf: "/docs/kapa-bylaws.pdf",
   cafe: "https://cafe.naver.com/adderallforlife",
-  chat: "#open-chat-placeholder",
-  email: "mailto:contact@example.org"
+  chat: "https://open.kakao.com/o/pHDcpyki",
+  email: "mailto:kapn.rights@gmail.com"
 };

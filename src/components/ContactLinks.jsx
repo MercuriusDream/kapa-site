@@ -40,7 +40,7 @@ export function ContactLinks() {
         </ExternalLink>
         <ExternalLink className="contact-row" href={links.email}>
           <span className="contact-label">이메일</span>
-          <span className="contact-title">contact@example.org</span>
+          <span className="contact-title">kapn.rights@gmail.com</span>
           <span className="contact-meta" aria-hidden="true">
             메일 앱으로 열기 →
           </span>
