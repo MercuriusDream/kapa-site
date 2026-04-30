@@ -1,0 +1,202 @@
+- generic [ref=e2]:
+  - link "본문 바로가기" [ref=e3] [cursor=pointer]:
+    - /url: "#top"
+  - banner "상단 내비게이션" [ref=e4]:
+    - generic [ref=e5]:
+      - link "한국ADHD환우회 KAPA 홈" [ref=e6] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e7]: 한국ADHD환우회
+        - generic [ref=e8]: KAPA
+      - navigation "주요 섹션" [ref=e9]:
+        - link "사명" [ref=e10] [cursor=pointer]:
+          - /url: "#mission"
+        - link "목표" [ref=e11] [cursor=pointer]:
+          - /url: "#goals"
+        - link "이력" [ref=e12] [cursor=pointer]:
+          - /url: "#history"
+        - link "호소문" [ref=e13] [cursor=pointer]:
+          - /url: "#appeal"
+        - link "참여" [ref=e14] [cursor=pointer]:
+          - /url: "#contact"
+        - link "회칙" [ref=e15] [cursor=pointer]:
+          - /url: "#rules"
+  - main [ref=e16]:
+    - region "빼앗긴 시간을 되찾기 위한 환우들의 권리 운동" [ref=e17]:
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: KAPA · ADHD 환우 권리 네트워크
+        - heading "빼앗긴 시간을 되찾기 위한 환우들의 권리 운동" [level=1] [ref=e20]
+        - paragraph [ref=e21]: 한국ADHD환우회는 ADHD 환자가 필요한 치료를 제때, 충분히, 낙인 없이 받을 수 있도록 목소리를 모으는 비영리단체입니다.
+        - generic "주요 행동" [ref=e22]:
+          - link "가입 신청하기 (새 탭에서 열림)" [ref=e23] [cursor=pointer]:
+            - /url: https://docs.google.com/forms/d/e/1FAIpQLSemBXxIc9DuVW2dgHg3oEabuseKBTrd0ARBJGuQJ-g8YVlStA/viewform?usp=header
+            - text: 가입 신청하기
+            - generic [ref=e24]: (새 탭에서 열림)
+          - link "호소문 읽기" [ref=e25] [cursor=pointer]:
+            - /url: "#appeal"
+            - text: 호소문 읽기
+            - generic [ref=e26]: →
+      - generic "단체 개요" [ref=e27]:
+        - generic [ref=e28]:
+          - term [ref=e29]: 목표
+          - definition [ref=e30]: 권익 보호 · 인식 개선 · 치료권 보장
+        - generic [ref=e31]:
+          - term [ref=e32]: 성격
+          - definition [ref=e33]: 비영리 · 정파 중립 · 환우 중심
+        - generic [ref=e34]:
+          - term [ref=e35]: 활동
+          - definition [ref=e36]: 정책 제안 · 정보공개청구 · 의견 수렴
+    - region "핵심 메시지" [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: 치료권은 권리입니다.
+        - paragraph [ref=e40]: 오남용 방지는 필요합니다. 그러나 그 책임이 치료가 필요한 환자의 치료공백과 낙인으로 돌아와서는 안 됩니다.
+    - region "환자의 삶을 기준으로 제도를 다시 묻습니다" [ref=e41]:
+      - generic [ref=e42]:
+        - paragraph [ref=e43]:
+          - generic [ref=e44]: "01"
+          - generic [ref=e45]: /
+          - strong [ref=e46]: 사명
+        - heading "환자의 삶을 기준으로 제도를 다시 묻습니다" [level=2] [ref=e47]
+        - paragraph [ref=e48]: ADHD 환자의 권익을 보호하고 사회적 인식 개선을 도모하여, 국민의 정신건강 증진과 치료권 보장에 기여합니다.
+      - list [ref=e49]:
+        - listitem [ref=e50]:
+          - generic [ref=e51]:
+            - heading "권익 보호" [level=3] [ref=e52]
+            - paragraph [ref=e53]: ADHD 환자가 치료와 일상에서 겪는 불이익을 공적 의제로 만들고 개선을 요구합니다.
+        - listitem [ref=e54]:
+          - generic [ref=e55]:
+            - heading "인식 개선" [level=3] [ref=e56]
+            - paragraph [ref=e57]: 질환과 치료제에 대한 왜곡된 이미지 대신 의학적 사실과 환자의 경험을 전달합니다.
+        - listitem [ref=e58]:
+          - generic [ref=e59]:
+            - heading "치료권 보장" [level=3] [ref=e60]
+            - paragraph [ref=e61]: 필요한 치료 접근이 행정 편의나 낙인 때문에 제한되지 않도록 목소리를 모읍니다.
+    - region "오남용 방지와 치료권 보장은 함께 가야 합니다" [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]:
+          - generic [ref=e65]: "02"
+          - generic [ref=e66]: /
+          - strong [ref=e67]: 목표
+        - heading "오남용 방지와 치료권 보장은 함께 가야 합니다" [level=2] [ref=e68]
+        - paragraph [ref=e69]: KAPA는 규제의 필요성을 부정하지 않습니다. 다만 환자의 치료공백과 낙인을 정당화하는 방식의 규제에는 환자 관점의 보완이 필요하다고 봅니다.
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: 처방기준 현실화
+            - heading "의학적 필요에 부합하는 치료 기준" [level=3] [ref=e74]
+            - paragraph [ref=e75]: 국내 허가 ADHD 치료제의 일일 허가용량과 처방 기준이 실제 증상관리 필요에 맞도록 제도 개선을 요구합니다.
+        - listitem [ref=e76]:
+          - generic [ref=e77]:
+            - paragraph [ref=e78]: 치료공백 완화
+            - heading "약효가 사라진 시간도 삶의 일부입니다" [level=3] [ref=e79]
+            - paragraph [ref=e80]: 서방형 메틸페니데이트 제제의 작용시간 이후 발생하는 치료공백 문제를 알리고, 현실적인 보완책을 제안합니다.
+        - listitem [ref=e81]:
+          - generic [ref=e82]:
+            - paragraph [ref=e83]: 접근성 개선
+            - heading "선택 가능한 치료지가 늘어나야 합니다" [level=3] [ref=e84]
+            - paragraph [ref=e85]: 국내 미허가 ADHD 치료제의 도입, 예외적 처방절차, 환자 수요조사와 의견수렴을 통해 치료 선택권 확대를 추진합니다.
+        - listitem [ref=e86]:
+          - generic [ref=e87]:
+            - paragraph [ref=e88]: 인식개선
+            - heading "낙인보다 사실, 공포보다 균형" [level=3] [ref=e89]
+            - paragraph [ref=e90]: ADHD와 치료제를 둘러싼 왜곡된 보도, 낙인, 오해를 점검하고 사실에 기반한 설명과 비평을 이어갑니다.
+        - listitem [ref=e91]:
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: 행정참여
+            - heading "민원, 정보공개청구, 정책제안" [level=3] [ref=e94]
+            - paragraph [ref=e95]: 관계 부처에 적법한 절차로 의견을 제출하고, 환자의 목소리가 정책 형성과정에 반영되도록 활동합니다.
+    - region "작지만 빠르게, 공식 기반을 만들고 있습니다" [ref=e96]:
+      - generic [ref=e97]:
+        - paragraph [ref=e98]:
+          - generic [ref=e99]: "03"
+          - generic [ref=e100]: /
+          - strong [ref=e101]: 이력
+        - heading "작지만 빠르게, 공식 기반을 만들고 있습니다" [level=2] [ref=e102]
+        - paragraph [ref=e103]: 창립총회 이후 단체 명의 활동과 정책 참여를 위한 절차를 순차적으로 진행했습니다.
+      - list [ref=e104]:
+        - listitem [ref=e105]:
+          - time [ref=e106]: 2026.04.26
+          - generic [ref=e107]:
+            - heading "창립총회 개최" [level=3] [ref=e108]
+            - paragraph [ref=e109]: 온라인 Zoom 창립총회에서 단체 창립, 정관 제정, 임원 선출, 2026년도 사업계획과 예산안이 의결되었습니다.
+        - listitem [ref=e110]:
+          - time [ref=e111]: 2026.04.27
+          - generic [ref=e112]:
+            - heading "주사무소 확보 및 고유번호증 신청" [level=3] [ref=e113]
+            - paragraph [ref=e114]: 비영리단체 명의 활동을 위한 사무소를 확보하고 고유번호증 신청 절차를 진행했습니다.
+        - listitem [ref=e115]:
+          - time [ref=e116]: 2026.04.28
+          - generic [ref=e117]:
+            - heading "치료공백 문제 관련 의견 전달" [level=3] [ref=e118]
+            - paragraph [ref=e119]: 메틸페니데이트 처방 기준, 치료공백, 보도자료의 역효과 문제에 대해 관계 부처와 소통했습니다.
+        - listitem [ref=e120]:
+          - time [ref=e121]: 2026.04.30
+          - generic [ref=e122]:
+            - heading "단체 고유번호 발급" [level=3] [ref=e123]
+            - paragraph [ref=e124]: 단체 고유번호가 발급되어 한국ADHD환우회 명의의 공식 활동 기반이 마련되었습니다.
+    - region "ADHD 환자의 시간은 규제의 부작용으로 사라져서는 안 됩니다" [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - paragraph [ref=e128]:
+            - generic [ref=e129]: "04"
+            - generic [ref=e130]: /
+            - strong [ref=e131]: 호소문
+          - heading "ADHD 환자의 시간은 규제의 부작용으로 사라져서는 안 됩니다" [level=2] [ref=e132]
+        - generic [ref=e133]:
+          - paragraph [ref=e134]: ADHD는 의지의 문제가 아니라 실제 증상과 기능 저하를 동반하는 질환입니다. 치료가 필요한 환자에게 약효가 닿지 않는 시간은 학업, 노동, 관계, 생활을 다시 무너뜨릴 수 있습니다.
+          - paragraph [ref=e135]: KAPA는 오남용 방지의 필요성을 인정합니다. 동시에 오남용 담론이 치료받는 환자를 의심하고 위축시키는 근거가 되어서는 안 된다고 말합니다. 행정은 환자를 제한하기 전에, 환자의 삶을 듣고 제도를 조정해야 합니다.
+    - region "이름을 다 밝히지 않아도, 의견은 힘이 됩니다" [ref=e136]:
+      - generic [ref=e137]:
+        - paragraph [ref=e138]:
+          - generic [ref=e139]: "05"
+          - generic [ref=e140]: /
+          - strong [ref=e141]: 참여
+        - heading "이름을 다 밝히지 않아도, 의견은 힘이 됩니다" [level=2] [ref=e142]
+        - paragraph [ref=e143]: 준회원은 활동명과 이메일 중심으로 참여할 수 있도록 설계하고 있습니다. 가입과 문의 경로를 통해 필요한 만큼 연결해 주세요.
+      - generic [ref=e144]:
+        - link "가입 준회원으로 참여하기 (새 탭에서 열림)" [ref=e145] [cursor=pointer]:
+          - /url: https://docs.google.com/forms/d/e/1FAIpQLSemBXxIc9DuVW2dgHg3oEabuseKBTrd0ARBJGuQJ-g8YVlStA/viewform?usp=header
+          - generic [ref=e146]: 가입
+          - generic [ref=e147]: 준회원으로 참여하기
+          - generic [ref=e148]: Google Forms →
+          - generic [ref=e149]: (새 탭에서 열림)
+        - link "이메일 contact@example.org (메일 앱 열기)" [ref=e150] [cursor=pointer]:
+          - /url: mailto:contact@example.org
+          - generic [ref=e151]: 이메일
+          - generic [ref=e152]: contact@example.org
+          - generic [ref=e153]: 메일 앱으로 열기 →
+          - generic [ref=e154]: (메일 앱 열기)
+      - paragraph [ref=e155]: 회원의 가입 여부, 건강상태, 진료 및 약물치료 정보는 본인의 명시적 동의 없이 공개하지 않는 것을 원칙으로 합니다.
+    - region "정관의 핵심을 공개합니다" [ref=e156]:
+      - generic [ref=e157]:
+        - paragraph [ref=e158]:
+          - generic [ref=e159]: "06"
+          - generic [ref=e160]: /
+          - strong [ref=e161]: 회칙
+        - heading "정관의 핵심을 공개합니다" [level=2] [ref=e162]
+        - paragraph [ref=e163]: 대외 홍보용 페이지에서는 핵심 조항을 요약하고, 원문 PDF를 함께 연결합니다.
+      - generic [ref=e164]:
+        - group [ref=e165]:
+          - generic "명칭과 목적 +" [ref=e166] [cursor=pointer]
+        - group [ref=e167]:
+          - generic "단체의 성격 +" [ref=e168] [cursor=pointer]
+        - group [ref=e169]:
+          - generic "주요 사업 +" [ref=e170] [cursor=pointer]
+        - group [ref=e171]:
+          - generic "회원과 참여 +" [ref=e172] [cursor=pointer]
+        - group [ref=e173]:
+          - generic "개인정보와 비밀보호 +" [ref=e174] [cursor=pointer]
+      - generic [ref=e175]:
+        - paragraph [ref=e176]:
+          - text: 정관상 영문 명칭은
+          - strong [ref=e177]: Korea ADHD Patients Network
+          - text: . 대외 약칭은 KAPA를 사용합니다.
+        - link "정관 PDF 원문 보기 (새 탭에서 열림)" [ref=e178] [cursor=pointer]:
+          - /url: /docs/kapa-bylaws.pdf
+          - text: 정관 PDF 원문 보기
+          - generic [ref=e179]: →
+          - generic [ref=e180]: (새 탭에서 열림)
+  - contentinfo [ref=e181]:
+    - generic [ref=e182]:
+      - strong [ref=e183]: 한국ADHD환우회 · KAPA
+      - paragraph [ref=e184]: 서울시 관악구 관악로24길 14 호삼빌딩 5층 33호
+    - paragraph [ref=e185]: 비영리단체 · 정파 중립 · ADHD 환자의 치료권 보장을 위한 대외 홍보 페이지
