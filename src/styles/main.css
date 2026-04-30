@@ -353,7 +353,7 @@ h3 {
 }
 
 .ticker-content span {
-  font-family: "Pretendard Variable", Pretendard, serif; /* Serifs often used for newspapers */
+  font-family: "Gothic A1", serif; /* Serifs often used for newspapers */
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 800;
   color: var(--ink);

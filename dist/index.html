@@ -18,6 +18,7 @@
       property="og:description"
       content="ADHD 환자가 필요한 치료를 제때, 충분히, 낙인 없이 받을 수 있도록 목소리를 모으는 비영리단체."
     />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link
       rel="preconnect"
       href="https://cdn.jsdelivr.net"
@@ -32,8 +33,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
     />
-    <script type="module" crossorigin src="/assets/index-4URbOnqO.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bf2g1CLq.css">
+    <script>
+      const theme = localStorage.getItem('kapa-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+    <script type="module" crossorigin src="./assets/index-CSfp7FuH.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-ChRAEMYF.css">
   </head>
   <body>
     <div id="root"></div>
