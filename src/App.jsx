@@ -14,8 +14,28 @@ import { links } from "./data/organization.js";
 import { navItems } from "./data/navigation.js";
 
 function About() {
+  const scrollTo = (id) => (e) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
+      <div className="section-wrap" style={{ paddingTop: '2rem' }}>
+        <nav className="about-toc" aria-label="목차">
+          <p className="kicker" style={{ marginBottom: '1rem' }}>차례</p>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexWrap: 'wrap', gap: '1.5rem' }}>
+            <li><a href="#mission" onClick={scrollTo('mission')} className="btn-link" style={{ minHeight: 'auto', paddingBlock: '0.2rem' }}>사명</a></li>
+            <li><a href="#goals" onClick={scrollTo('goals')} className="btn-link" style={{ minHeight: 'auto', paddingBlock: '0.2rem' }}>주요 목표</a></li>
+            <li><a href="#history" onClick={scrollTo('history')} className="btn-link" style={{ minHeight: 'auto', paddingBlock: '0.2rem' }}>활동 이력</a></li>
+            <li><a href="#rules" onClick={scrollTo('rules')} className="btn-link" style={{ minHeight: 'auto', paddingBlock: '0.2rem' }}>핵심 회칙</a></li>
+          </ul>
+        </nav>
+      </div>
       <Mission />
       <Goals />
       <HistoryTimeline />
@@ -97,28 +117,6 @@ export default function App() {
               <div style={{ paddingLeft: '0.5rem', display: 'flex' }}>
                 <ThemeToggle />
               </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <main id="top">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/appeal" element={<Appeal />} />
-          <Route path="/contact" element={<ContactLinks />} />
-        </Routes>
-      </main>
-
-      <SiteFooter />
-    </>
-  );
-}
-external" aria-label="외부 링크">
-              <ExternalLink href={links.cafe} className="external-item">카페</ExternalLink>
-              <ExternalLink href={links.chat} className="external-item">카카오톡</ExternalLink>
-              <ExternalLink href={links.membershipForm} className="external-item primary-external">가입신청서</ExternalLink>
             </div>
           </div>
         </div>
