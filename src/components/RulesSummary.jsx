@@ -26,7 +26,7 @@ export function RulesSummary() {
 
       <div className="charter-link">
         <p>
-          정관상 영문 명칭은 <strong>{organization.charterEnglishName}</strong>. 대외 약칭은 KAPA를
+          정관상 영문 명칭은 <strong>{organization.charterEnglishName}</strong>. 대외 약칭은 {organization.publicShortName}을
           사용합니다.
         </p>
         <ExternalLink className="btn-link" href={links.bylawsPdf}>

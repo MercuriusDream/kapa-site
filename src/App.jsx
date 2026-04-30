@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Routes, Route, NavLink, Link } from "react-router-dom";
 import { Appeal } from "./components/Appeal.jsx";
 import { ContactLinks } from "./components/ContactLinks.jsx";
@@ -13,14 +14,70 @@ import { Logo } from "./components/Logo.jsx";
 import { links } from "./data/organization.js";
 import { navItems } from "./data/navigation.js";
 
+const aboutTocItems = [
+  { id: "mission", label: "사명" },
+  { id: "goals", label: "목표" },
+  { id: "history", label: "이력" },
+  { id: "rules", label: "회칙" }
+];
+
+function scrollToSection(id) {
+  const el = document.getElementById(id);
+  if (el) {
+    const y = el.getBoundingClientRect().top + window.scrollY - 100;
+    window.scrollTo({ top: y, behavior: "smooth" });
+  }
+}
+
+function MobileReadingDock() {
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    const updateProgress = () => {
+      const root = document.documentElement;
+      const scrollable = root.scrollHeight - window.innerHeight;
+      const nextProgress = scrollable > 0 ? window.scrollY / scrollable : 0;
+      setProgress(Math.round(Math.min(1, Math.max(0, nextProgress)) * 100));
+    };
+
+    updateProgress();
+    window.addEventListener("scroll", updateProgress, { passive: true });
+    window.addEventListener("resize", updateProgress);
+    return () => {
+      window.removeEventListener("scroll", updateProgress);
+      window.removeEventListener("resize", updateProgress);
+    };
+  }, []);
+
+  const handleTocClick = (id) => (e) => {
+    e.preventDefault();
+    scrollToSection(id);
+  };
+
+  return (
+    <aside className="mobile-reading-dock" aria-label="읽기 진행도와 목차">
+      <div className="reading-progress-row">
+        <span>읽은 정도</span>
+        <strong>{progress}%</strong>
+      </div>
+      <div className="reading-progress-track" aria-hidden="true">
+        <span style={{ width: `${progress}%` }} />
+      </div>
+      <nav className="reading-toc" aria-label="모바일 목차">
+        {aboutTocItems.map((item) => (
+          <button key={item.id} type="button" onClick={handleTocClick(item.id)}>
+            {item.label}
+          </button>
+        ))}
+      </nav>
+    </aside>
+  );
+}
+
 function About() {
   const scrollTo = (id) => (e) => {
     e.preventDefault();
-    const el = document.getElementById(id);
-    if (el) {
-      const y = el.getBoundingClientRect().top + window.scrollY - 100;
-      window.scrollTo({ top: y, behavior: 'smooth' });
-    }
+    scrollToSection(id);
   };
 
   return (
@@ -40,6 +97,8 @@ function About() {
       <Goals />
       <HistoryTimeline />
       <RulesSummary />
+      <div className="mobile-reading-bottom-space" aria-hidden="true" />
+      <MobileReadingDock />
     </>
   );
 }
@@ -50,7 +109,11 @@ function Home() {
       <Hero />
       <section className="home-content section-wrap">
         <div className="home-manifesto">
-          <h2 className="manifesto-title">온전한 치료는 우리의 정당한 권리입니다.</h2>
+          <h2 className="manifesto-title">
+            <span>온전한 치료는</span>
+            <span>우리의 정당한</span>
+            <span>권리입니다.</span>
+          </h2>
         </div>
 
         <nav className="home-nav-list" aria-label="주요 안내">

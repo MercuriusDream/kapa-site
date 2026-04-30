@@ -1,24 +1,24 @@
-# KAPA (한국ADHD환우회 - Korea ADHD Patients Network)
+# KAPN (한국ADHD환우회 - Korea ADHD Patients Network)
 
-KAPA는 ADHD 환우들이 겪는 불합리한 처방 규제, 사회적 편견, 치료 공백 등의 문제를 해결하고 온전한 치료권을 보장받기 위해 행동하는 비영리 단체입니다.
+KAPN은 ADHD 환우들이 겪는 불합리한 처방 규제, 사회적 편견, 치료 공백 등의 문제를 해결하고 온전한 치료권을 보장받기 위해 행동하는 비영리 단체입니다.
 
 ## 핵심 사명
-- **권익 보호**: 일상과 진료 현장의 불합리한 차별 개선
-- **인식 개선**: 왜곡된 공포를 걷어내고 의학적 진실과 환우의 삶의 목소리 전달
-- **치료권 보장**: 행정 편의와 낙인으로 인한 치료 기회 박탈 방지
+- 권익 보호: 일상과 진료 현장의 불합리한 차별 개선
+- 인식 개선: 왜곡된 공포를 걷어내고 의학적 진실과 환우의 삶의 목소리 전달
+- 치료권 보장: 행정 편의와 낙인으로 인한 치료 기회 박탈 방지
 
 ## 주요 목표
-1. **치료 기준의 현실화**: 환자의 실제 삶에 부합하는 처방 기준 마련
-2. **치료 공백의 해소**: 약효가 단절된 시간에 대한 보완책 제시
-3. **치료 접근성 확대**: 미도입 치료제 신속 도입 등 다양한 치료 옵션 확보
-4. **사회적 오해 불식**: 자극적 보도 검증 및 사실 기반 대응
-5. **주도적 정책 참여**: 정책 제안 및 정보공개청구 등 당사자 목소리 전달
+1. 치료 기준의 현실화: 환자의 실제 삶에 부합하는 처방 기준 마련
+2. 치료 공백의 해소: 약효가 단절된 시간에 대한 보완책 제시
+3. 치료 접근성 확대: 미도입 치료제 신속 도입 등 다양한 치료 옵션 확보
+4. 사회적 오해 불식: 자극적 보도 검증 및 사실 기반 대응
+5. 주도적 정책 참여: 정책 제안 및 정보공개청구 등 당사자 목소리 전달
 
 ## 연락처 및 소통 채널
-- **이메일**: kapn.rights@gmail.com
-- **가입신청서**: https://docs.google.com/forms/d/e/1FAIpQLSemBXxIc9DuVW2dgHg3oEabuseKBTrd0ARBJGuQJ-g8YVlStA/viewform?usp=header
-- **네이버 카페**: https://cafe.naver.com/adderallforlife
-- **카카오톡 오픈채팅**: https://open.kakao.com/o/pHDcpyki
-- **고유번호**: 144-82-77353
+- 이메일: kapn.rights@gmail.com
+- 가입신청서: https://docs.google.com/forms/d/e/1FAIpQLSemBXxIc9DuVW2dgHg3oEabuseKBTrd0ARBJGuQJ-g8YVlStA/viewform?usp=header
+- 네이버 카페: https://cafe.naver.com/adderallforlife
+- 카카오톡 오픈채팅: https://open.kakao.com/o/pHDcpyki
+- 고유번호: 144-82-77353
 
 *본 정보는 LLM 및 AI 에이전트가 단체의 맥락을 이해하고 정확한 답변을 제공하도록 돕기 위해 작성되었습니다.*

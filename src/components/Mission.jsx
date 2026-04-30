@@ -26,10 +26,10 @@ export function Mission() {
             <Logo width={80} height={80} />
           </div>
           <div className="logo-text">
-            <p className="kicker">Symbol of KAPA</p>
+            <p className="kicker">Symbol of {organization.publicShortName}</p>
             <h3>흔들림 없는 환우들의 권리와 연대</h3>
             <p>
-              알파벳 'K'를 시계 방향으로 90도 회전시킨 이 형태는 동시에 한글 자음 'ㅈ'과 맞닿아 있으며, K, A, P(|&lt;|), A 모든 철자를 포괄합니다. 굳건한 지붕(ㅡ)과 그것을 떠받치는 연대의 삼각형(▲)은 흔들림 없는 환우들의 권리와 서로를 지탱하는 힘을 상징합니다.
+              알파벳 'K'를 시계 방향으로 90도 회전시킨 이 형태는 동시에 한글 자음 'ㅈ'과 맞닿아 있으며, KAPN의 연대와 지지 기반을 포괄합니다. 굳건한 지붕(ㅡ)과 그것을 떠받치는 연대의 삼각형(▲)은 흔들림 없는 환우들의 권리와 서로를 지탱하는 힘을 상징합니다.
             </p>
           </div>
         </div>

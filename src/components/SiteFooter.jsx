@@ -4,7 +4,7 @@ export function SiteFooter() {
   return (
     <footer className="footer section-wrap">
       <div>
-        <strong>{organization.koreanName} · KAPA</strong>
+        <strong>{organization.koreanName} · {organization.publicShortName}</strong>
         <p>{organization.officeAddress}</p>
         <p>고유번호 144-82-77353</p>
       </div>

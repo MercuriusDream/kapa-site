@@ -40,7 +40,10 @@ export function Hero() {
       </div>
       
       <div className="hero-content section-wrap reveal">
-        <h1 id="hero-title">빼앗긴 시간을 되돌려 주십시오</h1>
+        <h1 id="hero-title">
+          <span>빼앗긴 시간을</span>
+          <span>되돌려 주십시오</span>
+        </h1>
         <p className="hero-lede">
           {organization.koreanName}는 환우들이 자신에게 꼭 필요한 치료를 <strong>제때</strong>, <strong>충분히</strong>, 그리고 <strong>어떤 눈치도 보지 않고</strong> 받을 수 있는 사회를 만들기 위해 행동하는 비영리단체입니다.
         </p>
